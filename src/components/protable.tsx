@@ -559,7 +559,7 @@ const Protable: React.FC = () => {
     },
   ];
   return (
-    <ConfigProvider locale={intlMap[intl]}>
+    <ConfigProvider locale={intlMap["enUSIntl"]}>
       <Drawer
         title="Add information Manifest"
         width="100%"
